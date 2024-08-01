@@ -11,14 +11,14 @@ public class Main {
     public static void casteo2() {
         char c = 'A';
         int ASCII = (int) c;
-        System.out.println("El resultado es: " + ASCII);
+        System.out.println("Despues de convertir c a su valor ASCII como un int el resultado es: " + ASCII);
     }
 
     public static void casteo3() {
         double d = 100.04;
         long l = (long) d;
         int i = (int) l;
-        System.out.println("El resultado es: " + i);
+        System.out.println("Despues de convertir un String que contiene un número a un int el resultado es: " + i);
     }
 
     public static void casteo4() {
@@ -35,7 +35,7 @@ public class Main {
     public static void casteo6() {
         int numero = 65;
         char myChar = (char) numero;
-        System.out.println("El resultado es: " + myChar);
+        System.out.println("El resultado despues de convertir el 65 de char a un int es: " + myChar);
     }
 
     public static void casteo7() {
@@ -45,18 +45,18 @@ public class Main {
     public static void casteo8() {
         float dato = 3.19f;
         String str = Float.toString(dato);
-        System.out.println("El resultado es: " + str);
+        System.out.println("El resultado despues de convertir un float a un string es: " + str);
     }
 
     public static void casteo9() {
         int res = (int) Math.round(3.7);
-        System.out.println("El resultado es: " + res);
+        System.out.println("El resultado usando el math.round es: " + res);
     }
 
     public static void casteo10() {
         byte b = 50;
         short s = b;
-        System.out.println("El resultado es: " + s);
+        System.out.println("Despues de convertir un byte a short el resultado es: " + s);
     }
 
     // Funciones de Operadores de Asignación
